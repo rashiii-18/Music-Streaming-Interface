@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(18, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar{
+    width: 170px;
+    height: 100vh;
+    background-color: rgb(18, 20, 20);
+    border-right: 1px solid rgb(52, 53, 53);
+    padding: 20px 15px;
+}
+.sidebar h1 {
+    color: rgb(195, 244, 0);
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.sidebar h3 {
+    color: white;
+}
+
+.sidebar p {
+    color: white;
+}
+.menu {
+    margin-top: 10px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    height: 45px;
+    color: white;
+}
+
+.items p {
+    color: white;
+    font-size: 14px;
+}
